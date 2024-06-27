@@ -1,72 +1,818 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>CHUNDESIGN</title>
-      <link rel="stylesheet" type="text/css" href="style.css">
-      <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-      <link rel="stylesheet" type="text/css" href="css/animate.css">
-      <link rel="shortcut icon" href="img/fav.ico" type="image/x-icon">
-      <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="description" content="" />
-      <meta name="keywords" content=" "/>
-      <meta name="author" content="RogerChang">
-      <meta name="robots" content="index, follow" />
-   </head>
-   <body>
-      <!--Card-->
-      <div class="card animated fadeIn">
-         <center><a href="Resume/index.html" target="_blank"><img class="center animated rollIn" src="img/ava.png" alt="avatar"></a></center>
-         <hr>
-         <div class="name">
-            RogerChang
-         </div>
-         <p class="subtitle">Designer</p>
-         <p class="location"> </i><a href="Resume/index.html" target="_blank">Resume</a>
-         </p>
-                  <p class="icons animated pulse">
-                  </br>
-            
-         </p>
-         <!---
-         <p class="icons animated pulse">
-            <a href="https://twitter.com/shrinath_nayak" target="_blank">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-twitter fa-stack-1x"></i>
-            </span>
-            </a>
-            <a href="https://www.facebook.com/Abhi.Nayak07" target="_blank">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle-thin fa-3x fa-stack-2x"></i>     
-                <i class="fa fa-facebook fa-stack-1x"></i>
-            </span>
-            </a>
-            <a href="https://plus.google.com/u/0/112966876017615905321" target="_blank">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-google-plus fa-stack-1x"></i>
-            </span>
-            </a>
-            <a href="https://www.instagram.com/abhijeet_n7/" target="_blank">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-instagram fa-stack-1x"></i>
-            </span>
-            </a>
-            <a href="https://github.com/shrinathnayak07" target="_blank">
-            <span class="fa-stack fa-lg">
-                <i class="fa fa-circle-thin fa-stack-2x"></i>
-                <i class="fa fa-github fa-stack-1x"></i>
-            </span>
-            </a>
-         </p> --->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Roger Personal</title>
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="Bodo - Simple One Page Personal" name="description">
+    <meta content="BdgPixel" name="author">
+    <!--Fav-->
+    <link href="images/favicon.ico" rel="shortcut icon">
+    
+    <!--styles-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.theme.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+    
+    <!--fonts google-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]>
+       <script type="text/javascript" src="js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <!--PRELOADER-->
+    <div id="preloader">
+      <div id="status">
+        <img alt="logo" src="images/logo-big.png">
       </div>
-      <!--footer-->
-      <footer class="animated fadeIn">
-         &copy; 2018.
-      </footer>
-   </body>
+    </div>
+    <!--/.PRELOADER END-->
+
+    <!--HEADER -->
+    <div class="header">
+      <div class="for-sticky">
+        <!--LOGO-->
+        <div class="col-md-2 col-xs-6 logo">
+          <a href="index.html"><img alt="logo" class="logo-nav" src="images/logo.png"></a>
+        </div>
+        <!--/.LOGO END-->
+      </div>
+      <div class="menu-wrap">
+        <nav class="menu">
+          <div class="menu-list">
+            <a data-scroll="" href="#home" class="active">
+              <span>首頁</span>
+            </a>
+            <a data-scroll="" href="#about">
+              <span>關於我</span>
+            </a>
+            <a data-scroll="" href="#work">
+              <span>作品</span>
+            </a>
+             <a data-scroll="" href="#services">
+              <span>服務項目</span>
+            </a>
+            <a data-scroll="" href="#employement">
+              <span>工作經歷</span>
+            </a>
+            <a data-scroll="" href="#skill">
+              <span>應用技能</span>
+            </a>
+            <a data-scroll="" href="#education">
+              <span>學歷</span>
+            </a>
+            <a data-scroll="" href="#testimonial">
+              <span></span>
+            </a>
+            <a data-scroll="" href="#blog">
+              <span></span>
+            </a>
+            <a data-scroll="" href="#contact">
+              <span></span>
+            </a>
+          </div>
+        </nav>
+        <button class="close-button" id="close-button">Close Menu</button>
+      </div>
+      <button class="menu-button" id="open-button">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button><!--/.for-sticky-->
+    </div>
+    <!--/.HEADER END-->
+    
+    <!--CONTENT WRAP-->
+    <div class="content-wrap">
+      <!--CONTENT-->
+      <div class="content">
+        <!--HOME-->
+        <section id="home">
+          <div class="container">
+            <div class="row">
+              <div class="wrap-hero-content">
+                  <div class="hero-content">
+                    <h1>Hi</h1>
+                    <br>
+                    <span class="typed"></span>
+                  </div>
+              </div>
+              <div class="mouse-icon margin-20">
+                <div class="scroll"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.HOME END-->
+
+        <!--ABOUT-->
+        <section id="about">
+          <div class="col-md-6 col-xs-12 no-pad">
+            <div class="bg-about"></div>
+          </div>
+          <div class="col-md-6 col-sm-12 col-xs-12 white-col">
+            <div class="row">
+              <!--OWL CAROUSEL2-->
+              <div class="owl-carousel2">
+                <div class="col-md-12">
+                  <div class="wrap-about">
+                    <div class="w-content">
+                      <p class="head-about">
+                        設計就像藝術一樣，有許多方式，但沒有單一的方式。 設計可以是藝術，設計可以是美學。 設計可以非常簡單，就因如此也使的它變的復雜。</p>
+                      
+                      <h5 class="name">
+                        Mr.Roger
+                      </h5>
+                      <!--
+                      <img alt="signature" src="images/signature.png">
+                      -->
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="col-md-12 col-sm-12 col-xs-12 white-col">
+                  <div class="row">
+                    <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-12">
+                      <div class="wrap-about">
+                        <table class="w-content">
+                          <tr>
+                            <td class="title">Name </td>
+                            <td class="break">:</td>
+                            <td>RogerChang</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Line ID </td>
+                            <td class="break">:</td>
+                            <td>roger19841111</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Email </td>
+                            <td class="break">:</td>
+                            <td>adroger168@hotmail.com</td>
+                          </tr>
+                          <!--
+                          <tr>
+                            <td class="title">Address </td>
+                            <td class="break">:</td>
+                            <td> Cipamokolan street 102 , Bandung, Indonesia</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Skype </td>
+                            <td class="break">:</td>
+                            <td> bdgpixel</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Dribbble </td>
+                            <td class="break">:</td>
+                            <td> Muh-Reza</td>
+                          </tr>
+                          <tr>
+                            <td class="title">Behance</td>
+                            <td class="break">:</td>
+                            <td> m-reza</td>
+                          </tr>
+                          -->
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!--/.OWL CAROUSEL2 END-->
+            </div>
+          </div>
+        </section>
+        <!--/.ABOUT END-->
+
+        <!--WORK-->
+        <section class="grey-bg mar-tm-10" id="work">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>作品</span>
+                </h3></br>
+          
+
+                <a href="https://imgur.com/a/GCf0d">BANNER</a></br>
+
+
+                <a href="https://imgur.com/a/chkKt">DM</a></br>
+
+
+                <a href="https://imgur.com/a/p0NPDq6">Package</a></br>
+                <a href="tyres/index.html">web-tyres</a></br>
+
+              </div>
+              <div class="col-md-9 content-right">
+                <!--PORTFOLIO IMAGE-->
+                <ul class="portfolio-image">
+                  <li class="col-md-6">
+                    <a href="images/bw-1.png"><img alt="image" src="images/bw-1.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                           <p class="desc">Graphic</p>
+                        </div>
+
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-2.png"><img alt="image" src="images/bw-2.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Web
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <!---
+                  <li class="col-md-6">
+                    <a href="images/bw-3.png"><img alt="image" src="images/bw-3.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Black Mug
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-4.png"><img alt="image" src="images/bw-4.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Notebook Mockup
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-5.png"><img alt="image" src="images/bw-5.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Presentation
+                          </p>  
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="col-md-6">
+                    <a href="images/bw-6.png"><img alt="image" src="images/bw-6.png">
+                      <div class="decription-wrap">
+                        <div class="image-bg">
+                          <p class="desc">
+                            Letter Branding
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  --->
+                </ul>
+                <!--/.PORTFOLIO IMAGE END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.WORK END-->
+
+        <!--SERVICES-->
+        <section class="white-bg" id="services">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>服務項目</span>
+                </h3>
+                <p class="content-detail">
+
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          U
+                        </h3>
+                        <p class="head-sm">
+                        平面設計
+                        </p>
+                        <p class="text-grey">
+                          不論是LOGO、名片、招牌、DM、海報等、美感兼具的設計、視覺規劃、LOGO設計、名片設計、CIS設計、菜單、DM、喜帖、書籍、 插畫、招牌設計、影像合成、修改、去背等。
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          J
+                        </h3>
+                        <p class="head-sm">
+                          網頁設計
+                        </p>
+                        <p class="text-grey">
+                         服務包含RWD網頁設計,企業形象網站、購物網站、活動網頁設計、改版、調整、修改等。
+                        </p>
+                      </div>
+                    </li>
+<!-- 
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          d
+                        </h3>
+                        <p class="head-sm">
+                          UI
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <p class="icon-use">
+                          f
+                        </p>
+                        <p class="head-sm">
+                          DIRECTOR
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          p
+                        </h3>
+                        <p class="head-sm">
+                          UX DESIGN
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+                        </p>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-4 col-sm-4">
+                        <h3 class="icon-use">
+                          m
+                        </h3>
+                        <p class="head-sm">
+                          FRONT END
+                        </p>
+                        <p class="text-grey">
+                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem. 
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+--->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SERVICES END-->
+
+        <!--EMPLOYEMENT-->
+        <section class="grey-bg" id="employement">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>工作經歷</span>
+                </h3>
+                <p class="content-detail">
+
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2017 - 2018
+                            </h2>
+                            <p class="job">
+                              視覺設計師
+                            </p>
+                            <p class="company">
+                              貿易眼國際有限公司
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                          1.從事平面媒體（如：海報、雜誌、報紙、包裝、廣告看板等）設計、繪圖、美術編輯等工作</br>
+2.設計公司形象之視覺規範、視覺設計，以及網站視覺規劃與網頁製作等事務，網頁修改、網頁廣告製作</br>
+3.EDM製作</br>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2016 - 2017
+                            </h2>
+                            <p class="job">
+                              網頁設計師
+                            </p>
+                            <p class="company">
+                              城斌開發有限公司
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+1.RWD切版</br>
+2.設計公司形象之視覺規範、視覺設計，以及網站視覺規劃與網頁製作等事務</br>
+3.設計與製作公司形象規範、網站視覺風格</br>
+4.使用各種軟體製作專案網頁</br>
+5.協調其他網頁設計師，進行網站連結設計之相關事項</br>
+6.負責網站更新與管理</br>
+7.發想新的思維與創意，並應用於作品中</br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>  
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2015
+                            </h2>
+                            <p class="job">
+                              商業設計師
+                            </p>
+                            <p class="company">
+                              倍而飛生技創研有限公司
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+1.網頁設計製作、產品插圖及logo設計</br>
+2.包裝設計、簡介設計</br>  
+3.美編設計、文字編排</br>
+4.平面廣告與製作物設計</br>
+5.針對所選定之產品的性能與特性，規劃商品的包裝與設計</br>
+6.分析消費者對於造型、圖案、色彩、材料及價格之選擇傾向</br>
+7.產品繪製</br>
+8.3D印表機應用</br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2013 - 2015
+                            </h2>
+                            <p class="job">
+                              平面網頁資訊人員
+                            </p>
+                            <p class="company">
+                             宜山國際有限公司
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+1.網頁設計製作、產品插圖及logo設計</br>
+2.包裝設計、簡介設計</br>  
+3.美編設計、文字編排</br>
+4.平面廣告與製作物設計</br>
+5.針對所選定之產品的性能與特性，規劃商品的包裝與設計</br>
+6.分析消費者對於造型、圖案、色彩、材料及價格之選擇傾向</br>
+7.網站/網頁美學視覺設計與維護</br>
+8.產品設計</br>
+9.電腦相關問題排除</br>
+10.3D列表機操作</br>
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.EMPLOYEMENT END-->
+
+        <!--SKILLS-->
+        <section class="white-bg" id="skill">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>應用技能</span>
+                </h3>
+                <p class="content-detail">
+                  
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <!--SKILLST-->
+                <div class="skillst">
+                  <div class="skillbar" data-percent="78%">
+                    <div class="title head-sm">
+                      HTML 5
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="91%">
+                    <div class="title head-sm">
+                      CSS 3
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="30%">
+                    <div class="title head-sm">
+                      jQuery
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="20%">
+                    <div class="title head-sm">
+                      PHP
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                   <div class="skillbar" data-percent="95%">
+                    <div class="title head-sm">
+                      Illustrator
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                  <div class="skillbar" data-percent="95%">
+                    <div class="title head-sm">
+                      Photoshop
+                    </div>
+                    <div class="count-bar">
+                      <div class="count"></div>
+                    </div>
+                  </div>
+                </div>
+                <!--/.SKILLST END-->
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.SKILLS END-->
+
+        <!--EDUCATION-->
+        <section class="grey-bg" id="education">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>學歷</span>
+                </h3>
+                <p class="content-detail">
+                  
+                </p>
+              </div>
+              <div class="col-md-9 content-right">
+                <div class="row">
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2002 - 2004
+                            </h2>
+                            <p class="job">
+                              勤益科技大學
+                            </p>
+                            <p class="company">
+                              自動化控制組
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                               
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              1999 - 2002
+                            </h2>
+                            <p class="job">
+                              新民高級中學
+                            </p>
+                            <p class="company">
+                              機械製圖科
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                  <!---
+                  <ul class="listing-item">
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2007 - 2009
+                            </h2>
+                            <p class="job">
+                              Magister DKV 
+                            </p>
+                            <p class="company">
+                              ITB
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li>
+                      <div class="col-md-6 col-sm-6">
+                        <div class="wrap-card">
+                          <div class="card">
+                            <h2 class="year">
+                              2009 - 2010
+                            </h2>
+                            <p class="job">
+                              Typhography Magister
+                            </p>
+                            <p class="company">
+                              Florida University
+                            </p>
+                            <hr>
+                            <div class="text-detail">
+                              <p>
+                                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum. Mirum est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanita per seacula quarta decima et quinta decima. Eodem modo typi, qui nunc nobis videntur parum clari, fiant sollemnes.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+--->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--/.EDUCATION END-->
+
+        
+        <!--CONTACT-->
+             <!--- 
+	             <div>
+        <section id="contact" class="white-bg">
+     <div class="container">
+            <div class="row">
+              <div class="col-md-3">
+                <h3 class="title-small">
+                  <span>Contact</span>
+                </h3>
+                <p class="content-detail">
+
+                </p>
+
+              </div>
+              <div class="col-md-9 content-right">
+                <form>
+                  <div class="group">
+                    <input required="" type="text"><span class="highlight"></span><span class="bar"></span><label>Name</label>
+                  </div>
+                  <div class="group">
+                    <input required="" type="email"><span class="highlight"></span><span class="bar"></span><label>Email</label>
+                  </div>
+                  <div class="group">
+                    <textarea required=""></textarea><span class="highlight"></span><span class="bar"></span><label>Message</label>
+                  </div>
+                  <input id="sendMessage" name="sendMessage" type="submit" value="Send Message">
+                </form>
+              </div>
+            </div>
+          </div> 
+        </section>
+      </div>--->
+        <!--/.CONTACT END-->
+        
+        <!--FOOTER-->
+        <footer>
+	        <!---
+          <div class="footer-top">
+            <ul class="socials">
+              <li class="facebook">
+                <a href="#" data-hover="Facebook">Facebook</a>
+              </li>
+              <li class="twitter">
+                <a href="#" data-hover="Twitter">Twitter</a>
+              </li>
+              <li class="gplus">
+                <a href="#" data-hover="Google +">Google +</a>
+              </li>
+            </ul>
+          </div>
+--->
+          <div class="footer-bottom">
+            <div class="container">
+              <div class="row">
+                <img src="images/logo-bottom.png" alt="logo bottom" class="center-block" />
+              </div>
+            </div>
+          </div>
+          
+        </footer>
+        <!--/.FOOTER-END-->
+
+      <!--/.CONTENT END-->
+      </div>
+    <!--/.CONTENT-WRAP END-->
+    </div>
+    
+
+    <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="js/jquery.appear.js" type="text/javascript"></script>
+    <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="js/classie.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="js/jquery.magnific-popup.min.js" type="text/javascript"></script>
+    <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="js/masonry.js" type="text/javascript"></script>
+    <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
+    <script src="js/typed.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+  </body>
 </html>
